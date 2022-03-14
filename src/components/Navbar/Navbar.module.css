@@ -1,0 +1,28 @@
+.Navbar {
+    backdrop-filter: blur(2px);
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    padding: 2em;
+    background: linear-gradient(to right rgba(0,0,0, 1), rgba(0,0,0));
+    width: fit-content;
+    margin: 5px 5px 0 0;
+}
+
+.Navbar div {
+    float: right;
+    width: fit-content;
+    /* right: 0; */
+}
+
+.NavItem {
+    margin: 1em;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.NavItem:hover {
+    color: cyan;
+}

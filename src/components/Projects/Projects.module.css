@@ -1,0 +1,9 @@
+.Projects {
+    height: 100%;
+    padding: 1em 2em 1em 15em;
+}
+.Title {
+    margin: 0 0 20px 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    
+}

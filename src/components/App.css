@@ -1,0 +1,156 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.Landing {
+  background: #fff;
+  border: cyan 5px solid;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center */
+}
+
+.Socials {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  font-size: 4rem;
+}
+.SocialIcons {
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: rgb(145, 143, 143) 0 0 30px;
+}
+.SocialIcons:hover {
+  color: cyan;
+}
+.SocialsInnerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.SocialsInnerWrapper a {
+  text-decoration: none;
+  /* height: fit-content; */
+  color: #999;
+}
+
+.Title {
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 0 100%);
+  background: linear-gradient(
+    #0bffff,    
+    #00158b,
+    #7c5000
+  );
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.TitleInnerWrapper {
+  margin: 0 0 0 2em;
+  /* color: white; */
+  margin: 1em;
+  width: fit-content;
+  background: linear-gradient(to right, white, cyan, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Sansita Swashed', cursive;
+}
+.Name {
+  font-size: 5.5vw;
+}
+.Job {
+  font-size: 3vw;
+}
+.ImageWrapper {
+  background: white;
+  /* linear-gradient(
+    to right,
+    #e7a91fb3,
+    #8f5f95,
+    #cdffcd
+  ); */
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 30px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.ImageWrapper img {
+  border-radius: 20%;
+  width: 75%;
+  height: 75%;
+}
+
+.Outlet {
+  background: 
+  linear-gradient(
+    to bottom, 
+    #002736,
+    rgb(255, 255, 255, 0),
+    rgb(89, 235, 127, 1)),
+  url('../assets/images/code-background.jpg');
+  background-position: top left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%);
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 3rem;
+}
+.OutletInnerWrapper {
+  /* height: 85vh; */
+  width: 100%;
+  overflow-x: scroll;
+}

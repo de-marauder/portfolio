@@ -1,0 +1,37 @@
+.ResumeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ResumeImg {
+    width: 15%;
+    margin-bottom: 2em;
+}
+/* .ResumeImg:hover {
+    padding-top: 15em;
+    position: absolute;
+    width: 25%;
+} */
+
+.Download svg {
+    color: #aaa;
+    font-size: 1.5em;
+}
+.Download:hover svg {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+.Download p {
+    max-width: max-content;
+    cursor: default;
+}
+.Download:hover p {
+    color: white
+}

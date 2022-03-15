@@ -5,8 +5,10 @@ import classes from "./ProjectCards.module.css"
 
 export default function ProjectCards() {
   return (
-    <div className={classes.ProjectCards}>
-        <ProjectCard />
+    <div className={classes.ProjectCards}> 
+        <ProjectCard />   
+        <ProjectCard />   
+        <ProjectCard />   
     </div>
   )
 }

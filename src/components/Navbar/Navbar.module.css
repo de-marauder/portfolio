@@ -1,22 +1,42 @@
 .Navbar {
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(5px); */
     position: fixed;
-    right: 0;
     z-index: 10;
-    padding: 2em;
-    background: linear-gradient(to right rgba(0,0,0, 1), rgba(0,0,0));
-    width: fit-content;
-    margin: 5px 5px 0 0;
+    padding: 1em;
+    /* background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.9)); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 0px 15px black; */
 }
 
-.Navbar div {
-    float: right;
-    width: fit-content;
-    /* right: 0; */
+@media (min-width: 500px) {
+    .Navbar {
+        backdrop-filter: blur(5px);
+        /* position: fixed; */
+        /* z-index: 10; */
+        /* padding: 1em; */
+        background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.9));
+        /* width: 100%; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        box-shadow: 0 0px 15px black;
+    }
+    .Navbar > .Links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+
+.Navbar > .Links {
+    display: none;
 }
 
 .NavItem {
-    margin: 1em;
+    margin: 0 1em;
     font-size: 1.2em;
     color: white;
     text-decoration: none;
@@ -25,4 +45,31 @@
 
 .NavItem:hover {
     color: cyan;
+}
+.HomeIcon {
+    margin: 0 1em;
+}
+.Socials {
+    /* display: flex; */
+    /* z-index: 5; */
+    font-size: 1.2em;
+}
+.SocialIcons {
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0 1em;
+    /* box-shadow: rgb(145, 143, 143) 0 0 30px; */
+}
+.SocialIcons:hover {
+    color: cyan;
+}
+.SocialsInnerWrapper {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+}
+.SocialsInnerWrapper a {
+    /* margin: 1em; */
+    text-decoration: none;
+    color: #999;
 }

@@ -1,11 +1,31 @@
 .ProjectCard {
-    margin: 10px 20px;
-    width: 65%;
+    margin: 20px;
+    /* width: 65%; */
+    max-width: 40%;
+    /* height: 65vh; */
+    /* flex-basis: 50%; */
+    flex-shrink: 0;
     padding: 1em;
     backdrop-filter: blur(3px);
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.514);
+    background: rgba(65, 77, 82, 0.7);
+    box-shadow: #ddd 0 0 10px;
 }
+
+/* @media (min-width: 900px) {
+    .ProjectCard {
+        margin: 10px 20px;
+        width: 65%; */
+        /* max-width: 65%; */
+        /* height: 65vh; */
+        /* flex-basis: 50%; */
+        /* flex-shrink: 0;
+        padding: 1em;
+        backdrop-filter: blur(3px);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.614);
+    }
+} */
 
 .ProjectImg {
     height: 50%;
@@ -16,11 +36,11 @@
     padding: 1rem 0;
     color: rgb(253, 200, 100);
     text-shadow: 0 0 10px #000;
+    font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
 }
 .Title p {
-    color:rgb(0, 0, 0);
-    font-weight: bold;
+    color:rgb(255, 255, 255);
 }
 
 .Tags {

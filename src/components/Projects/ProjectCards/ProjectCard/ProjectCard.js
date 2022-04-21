@@ -4,26 +4,24 @@ import ProjectImg from '../../../../assets/images/Tasty foods screenshot.png';
 import classes from "./ProjectCard.module.css"
 
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
+
+  const tech = props.tech.map((el, id)=><li key={id} className={classes.Tag}>{el}</li>)
+  const links = props.links.map((el, id)=><a key={id} href={el}>{id===0 ? 'Open Site' : 'View Code'}</a>)
 
   return (
     <div className={classes.ProjectCard}>
         <img className={classes.ProjectImg} src={ProjectImg} alt='project' />
         <div className={classes.Title}>
-            <h3>Tasty Foods</h3>
+            <h3>{props.name}</h3>
             <hr style={{border: '1px solid darkorange', margin: "10px 0"}} /> 
-            <p>An Online Restaurant for Ordering Local Cuisine.</p>
+            <p>{props.desc}</p>
         </div>
         <ul className={classes.Tags}>
-            <li className={classes.Tag}>React</li>
-            <li className={classes.Tag}>Redux</li>
-            <li className={classes.Tag}>Tailwindcss</li>
-            <li className={classes.Tag}>React-router-dom</li>
-            <li className={classes.Tag}>stripe API</li>
+            {tech}
         </ul>
         <div className={classes.Links}>
-            <a href="https://de-marauder.github.io/spicy_soups/">Open Site</a>
-            <a href="https://github.com/de-marauder/spicy_soups">View Code</a>
+            {links}
         </div>
     </div>
   )

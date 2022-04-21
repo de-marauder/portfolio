@@ -1,0 +1,57 @@
+.TitleWrapper {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.TitleWrapper .Title {
+    display: inline-block;
+    font-size: 3em
+}
+
+.smilie {
+    right: -1.2em;
+    bottom: 0.5em;
+    font-size: 2.5em;
+}
+.contact {
+    display: grid;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact input, .contact textarea {
+    background-color: rgba(245, 240, 240, 0.459);
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: #fff;
+    font-size: 1.2em;
+    /* width: 100% */
+}
+.contact textarea {
+    resize: vertical;
+}
+.contact input:focus, .contact textarea:focus,
+.contact input:hover, .contact textarea:hover {
+    background-color: rgba(0, 255, 255, 0.425);
+}
+.contact input:focus-visible, .contact textarea:focus-visible {
+    outline: none;
+}
+.contact input[type="submit"] {
+    width: 50%;
+    margin: 1em auto;
+}
+.contact input[type="submit"]:hover {
+    letter-spacing: 0.7em;
+}
+
+@media (min-width: 600px) {
+    .TitleWrapper .Title {
+        font-size: 4em
+    }
+    .smilie {
+        right: -1.2em;
+        bottom: 1.2em;
+        font-size: 3em;
+    }
+}

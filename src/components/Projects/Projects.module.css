@@ -1,8 +1,9 @@
 .Projects {
-    min-height: 100vh;
-    padding: 2em;
-    padding-top: 5.8em;
+    height: 100vh;
+    padding: 2em 0.8em;
     background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    overflow: auto;
+    width: 100%
 }
 .Projects::-webkit-scrollbar {
     display: none;

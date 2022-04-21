@@ -20,10 +20,11 @@ export default function Navbar(props) {
                         <a target='_blank' rel="noreferrer" href="https://twitter.com/De_marauder" ><BsTwitter className={classes.SocialIcons} /></a>
                     </div>
                 </div>
-                <div>
+                <div className={classes.Routes}>
                     <Link to='/projects' className={classes.NavItem}>Projects</Link>
                     <Link to='/about' className={classes.NavItem}>About</Link>
                     <Link to='/resume' className={classes.NavItem}>Resume</Link>
+                    <Link to='/contact' className={classes.NavItem}>Contact</Link>
                 </div>
             </div>
             

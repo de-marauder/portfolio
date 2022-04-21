@@ -1,31 +1,11 @@
 .ProjectCard {
-    margin: 20px;
-    /* width: 65%; */
-    max-width: 22em;
-    /* height: 65vh; */
-    /* flex-basis: 50%; */
-    flex-shrink: 0;
+    margin: 20px auto;
     padding: 1em;
     backdrop-filter: blur(3px);
     border-radius: 20px;
     background: rgba(65, 77, 82, 0.7);
     box-shadow: #ddd 0 0 10px;
 }
-
-/* @media (min-width: 900px) {
-    .ProjectCard {
-        margin: 10px 20px;
-        width: 65%; */
-        /* max-width: 65%; */
-        /* height: 65vh; */
-        /* flex-basis: 50%; */
-        /* flex-shrink: 0;
-        padding: 1em;
-        backdrop-filter: blur(3px);
-        border-radius: 20px;
-        background: rgba(255, 255, 255, 0.614);
-    }
-} */
 
 .ProjectImg {
     height: 50%;
@@ -79,4 +59,10 @@
     color:white;
     border: solid darkorange 2px;
     border-radius: 20px;
+}
+
+@media (min-width: 600px) {
+    .ProjectCard {
+        flex-basis: 45%;
+    }
 }

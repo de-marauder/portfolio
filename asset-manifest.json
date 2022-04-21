@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f460dbdb.css",
-    "main.js": "/portfolio/static/js/main.0562b1d7.js",
-    "static/media/Tasty foods screenshot.png": "/portfolio/static/media/Tasty foods screenshot.ad691c39ea43c87b9df5.png",
-    "static/media/code-background.jpg": "/portfolio/static/media/code-background.8ee16d947dad7695aac1.jpg",
-    "static/media/EzikeObiajuluGodson_Resume.jpg": "/portfolio/static/media/EzikeObiajuluGodson_Resume.ba8cc64cdb2e26ad21bc.jpg",
-    "static/media/user.png": "/portfolio/static/media/user.45a0af68515332b42be9.png",
-    "static/media/coder-icon.webp": "/portfolio/static/media/coder-icon.0fdfbcab352561f9c569.webp",
-    "index.html": "/portfolio/index.html",
-    "main.f460dbdb.css.map": "/portfolio/static/css/main.f460dbdb.css.map",
-    "main.0562b1d7.js.map": "/portfolio/static/js/main.0562b1d7.js.map"
+    "main.css": "/static/css/main.02047381.css",
+    "main.js": "/static/js/main.24c19059.js",
+    "static/media/Tasty foods screenshot.png": "/static/media/Tasty foods screenshot.ad691c39ea43c87b9df5.png",
+    "static/media/code-background.jpg": "/static/media/code-background.8ee16d947dad7695aac1.jpg",
+    "static/media/EzikeObiajuluGodson_Resume.jpg": "/static/media/EzikeObiajuluGodson_Resume.ba8cc64cdb2e26ad21bc.jpg",
+    "static/media/user.png": "/static/media/user.45a0af68515332b42be9.png",
+    "static/media/coder-icon.webp": "/static/media/coder-icon.0fdfbcab352561f9c569.webp",
+    "index.html": "/index.html",
+    "main.02047381.css.map": "/static/css/main.02047381.css.map",
+    "main.24c19059.js.map": "/static/js/main.24c19059.js.map"
   },
   "entrypoints": [
-    "static/css/main.f460dbdb.css",
-    "static/js/main.0562b1d7.js"
+    "static/css/main.02047381.css",
+    "static/js/main.24c19059.js"
   ]
 }

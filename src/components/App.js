@@ -20,9 +20,9 @@ function App() {
   const [sidebar, setSidebar] = useState(false)
 
   return (
-    <>
+    <section className='App'>
       <Navbar sidebar={sidebar} />
-      <SideBar sidebar={sidebar} />
+      <SideBar toggle={setSidebar} sidebar={sidebar} />
       <Menu sidebar={sidebar} toggle={setSidebar} />
       <div className="Landing">
         
@@ -47,7 +47,7 @@ function App() {
             {/* </div>
         </div> */}
       </div>
-    </>
+    </section>
   );
 }
 

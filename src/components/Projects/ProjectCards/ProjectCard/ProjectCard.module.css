@@ -1,7 +1,7 @@
 .ProjectCard {
     margin: 20px;
     /* width: 65%; */
-    max-width: 40%;
+    max-width: 22em;
     /* height: 65vh; */
     /* flex-basis: 50%; */
     flex-shrink: 0;

@@ -11,13 +11,21 @@
     align-items: center;
 }
 .ResumeImg {
-    width: 15%;
-    margin-bottom: 2em;
+    width: 90%;
+    margin-bottom: 1em;
 }
-/* .ResumeImg:hover {
-    padding-top: 15em;
-    position: absolute;
-    width: 25%;
+
+/* @media (min-width: 500px) {
+    .ResumeImg {
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+@media (min-width: 900px) {
+    .ResumeImg {
+        width: 15%;
+        margin-bottom: 2em;
+    }
 } */
 
 .Download svg {
@@ -29,8 +37,9 @@
     font-size: 2em;
 }
 .Download p {
-    max-width: max-content;
+    min-width: max-content;
     cursor: default;
+    color: #aaa;
 }
 .Download:hover p {
     color: white

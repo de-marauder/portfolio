@@ -10,7 +10,7 @@ import classes2 from './Resume.module.css'
 
 export default function Resume() {
   return (
-    <div className={classes.Projects} style={{ height: '100vh' }}>
+    <div className={classes.Projects} style={{minHeight: '100vh'}}>
       <h1 className={classes.Title}>Resume</h1>
       <div className={classes2.ResumeWrapper}>
         <img className={classes2.ResumeImg} src={ResumeImg} alt="resume" />

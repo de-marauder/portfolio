@@ -1,6 +1,6 @@
 .Outer {
     background: rgb(68, 144, 243);
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 0;
     min-width: 60px;
@@ -18,12 +18,6 @@
 
 @keyframes menu {
     to {
-        /* background: radial-gradient(
-            rgba(255, 255, 255, 0.726), 
-            cyan,
-            #fff,
-            rgba(236, 27, 27, 0.87) 
-            ); */
         box-shadow: 0 0 30px rgb(255, 0, 234);
     }
 }
@@ -37,3 +31,8 @@
     font-family: 'Festive', cursive;
 }
 
+@media (min-width: 600px) {
+    .Outer {
+        display: none
+    }
+}

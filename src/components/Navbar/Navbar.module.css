@@ -11,7 +11,12 @@
     /* box-shadow: 0 0px 15px black; */
 }
 
-@media (min-width: 500px) {
+
+.Navbar > .Links {
+    display: none;
+}
+
+@media (min-width: 600px) {
     .Navbar {
         backdrop-filter: blur(5px);
         /* position: fixed; */
@@ -27,12 +32,8 @@
     .Navbar > .Links {
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        /* width: 80%; */
     }
-}
-
-.Navbar > .Links {
-    display: none;
 }
 
 .NavItem {

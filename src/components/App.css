@@ -1,3 +1,7 @@
+/* .App {
+  position: relative;
+} */
+
 .Landing {
   /* background: #0ff; */
   /* border: cyan 5px solid; */
@@ -19,16 +23,29 @@
 } */
 
 .Title {
-  background: linear-gradient(to bottom, #0bffffd3,rgba(255, 255, 255, 0.678),rgb(0, 0, 0)),
+  background: linear-gradient(to bottom, #0bffffd3,rgba(131, 130, 130, 0.897),rgb(0, 0, 0)),
   url('../assets/images/code-background.jpg');
   background-position: bottom right;
   height: 100vh;
   width: 100%;
-  padding-top: 5.5em;
+  /* padding-top: 5.5em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 600px) {
+  .Title {
+    padding-top: 5.5em;
+  }
+  .Name {
+    font-size: 10vw;
+  }
+  .Job {
+    font-size: 5vw;
+    font-family: 'Festive', cursive;
+  }
 }
 
 .TitleInnerWrapper {
@@ -50,10 +67,10 @@
   }
 }
 .Name {
-  font-size: 10vw;
+  font-size: 13vw;
 }
 .Job {
-  font-size: 5vw;
+  font-size: 7vw;
   font-family: 'Festive', cursive;
 }
 .ImageWrapper {

@@ -1,8 +1,15 @@
-aside {
-    position: absolute;
+.SidebarWrapper {
+    position: fixed;
     right: 0;
-    transform: translateX(70vw);
+    transform: scale(0, 1);
+    transform-origin: right;
     z-index: 15;
+}
+
+@media (min-width: 600px) {
+    .SidebarWrapper {
+        display: none;
+    }
 }
 
 .Sidebar {

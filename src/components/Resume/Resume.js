@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 import { AiOutlineDownload } from 'react-icons/ai'
 
 import ResumeImg from '../../assets/images/EzikeObiajuluGodson_Resume.jpg'
@@ -10,7 +10,11 @@ import classes2 from './Resume.module.css'
 
 export default function Resume() {
   return (
-    <div className={classes.Projects} style={{minHeight: '100vh'}}>
+    <motion.div className={classes.Projects} style={{ minHeight: '100vh' }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, animation: { delay: 1 } }}
+    >
       <h1 className={classes.Title}>Resume</h1>
       <div className={classes2.ResumeWrapper}>
         <img className={classes2.ResumeImg} src={ResumeImg} alt="resume" />
@@ -19,6 +23,6 @@ export default function Resume() {
           <p className={classes1.P}>Download</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

@@ -3,9 +3,9 @@
   min-height: 100vh;
 }
 .Landing {
-  border: cyan 5px solid;
+  border: cyan solid;
   width: calc(100vw - 4em);
-
+  border-width: 0 5px;
 }
 
 .Title {
@@ -45,17 +45,19 @@
 .Job {
   font-family: 'Festive', cursive;
 }
-.Job .tech {
+.skills {
+  display: flex;
+  flex-flow: wrap;
+}
+.skills .tech {
   color: rgba(255, 255, 255, 0.363);
   font-weight: 100;
   font-size: 0.7em;
   line-height: 3em;
-  font-family:'Helvetica'
+  font-family:'Helvetica';
+  margin-right: 1em;
 }
-.Job span:nth-child(3), .Job span:nth-child(4) {
-  margin-left: 10px;
-  margin-right: 10px;
-}
+
 .ImageWrapper {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
@@ -75,6 +77,22 @@
 
 .Landing::-webkit-scrollbar {
   display: none;
+}
+.flat-btn {
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-family: 'Helvetica';
+  border: solid cyan 1px;
+  border-radius: 1em;
+  color: cyan;
+  text-decoration: none;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+.flat-btn:hover {
+  background-color: cyan;
+  color: inherit;
+  letter-spacing: 3px;
 }
 
 @media (min-width: 600px) {

@@ -25,7 +25,6 @@
     margin: 0.5em;
     color: #fff;
     font-size: 1.2em;
-    /* width: 100% */
 }
 .contact textarea {
     resize: vertical;
@@ -42,7 +41,7 @@
     margin: 1em auto;
 }
 .contact input[type="submit"]:hover {
-    letter-spacing: 0.7em;
+    letter-spacing: 0.5em;
 }
 
 @media (min-width: 600px) {

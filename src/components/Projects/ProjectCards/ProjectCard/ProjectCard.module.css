@@ -6,6 +6,7 @@
     background: rgba(65, 77, 82, 0.7);
     box-shadow: #ddd 0 0 10px;
     max-width: 400px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

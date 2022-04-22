@@ -18,7 +18,7 @@ export default function ProjectCards() {
       links={["https://de-marauder.github.io/spicy_soups/", "https://github.com/de-marauder/spicy_soups"]} />
       
       <ProjectCard 
-      name="Wordle"
+      name="Wordle clone"
       img={wordle} 
       desc="A game where the player tries to guess a word in 6 tries. Can you guess the word?"
       tech={['React', 'CSS3', 'JavaScript', 'HTML5']}

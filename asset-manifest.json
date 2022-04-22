@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.55b7bd41.css",
-    "main.js": "/portfolio/static/js/main.3a3f3849.js",
+    "main.css": "/portfolio/static/css/main.4e3be5fa.css",
+    "main.js": "/portfolio/static/js/main.d0e785fd.js",
     "static/media/Tasty foods screenshot.png": "/portfolio/static/media/Tasty foods screenshot.ad691c39ea43c87b9df5.png",
     "static/media/code-background.jpg": "/portfolio/static/media/code-background.8ee16d947dad7695aac1.jpg",
     "static/media/EzikeObiajuluGodson_Resume.jpg": "/portfolio/static/media/EzikeObiajuluGodson_Resume.ba8cc64cdb2e26ad21bc.jpg",
     "static/media/user.png": "/portfolio/static/media/user.45a0af68515332b42be9.png",
     "static/media/coder-icon.webp": "/portfolio/static/media/coder-icon.0fdfbcab352561f9c569.webp",
     "index.html": "/portfolio/index.html",
-    "main.55b7bd41.css.map": "/portfolio/static/css/main.55b7bd41.css.map",
-    "main.3a3f3849.js.map": "/portfolio/static/js/main.3a3f3849.js.map"
+    "main.4e3be5fa.css.map": "/portfolio/static/css/main.4e3be5fa.css.map",
+    "main.d0e785fd.js.map": "/portfolio/static/js/main.d0e785fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b7bd41.css",
-    "static/js/main.3a3f3849.js"
+    "static/css/main.4e3be5fa.css",
+    "static/js/main.d0e785fd.js"
   ]
 }

@@ -13,8 +13,7 @@ export default function About() {
       <h1 className={classes.Title}>About</h1>
       <p className={classes2.P}>
         Hello, my name is Ezike Obiajulu Godson.
-        I am a self taught software developer with an academic background in chemical engineering and skills in HTML, CSS, JavaScript and python and a specific interest in web development.
-      </p><br/>
+        I am a self taught software developer with an academic background in chemical engineering and skills in CSS, JavaScript, React, Express and python and a specific interest in web development.      </p><br/>
       <p className={classes2.P}>
         Researching and implementing nouvelle methods to improve the UI/UX, responsiveness and optimization of websites is something I take pride in. I constantly strive to improve my skills.
       </p><br/>

@@ -26,20 +26,10 @@
   margin: 0 0 0 2em;
   margin: 1em;
   width: fit-content;
-  background: linear-gradient(to right, rgb(122, 250, 164), rgb(237, 248, 248), rgb(230, 230, 107));
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  color: cyan;
   font-weight: bolder;
-  animation: Title ease-in-out 1s  infinite;
 }
-@keyframes Title {
-  to {
-    background: linear-gradient(to right, rgb(230, 230, 107), rgb(122, 250, 164), rgb(237, 248, 248));
-    background-clip: text;
-    -webkit-background-clip: text;
-  }
-}
+
 .Name {
   font-size: 4.5em;
   color: white;

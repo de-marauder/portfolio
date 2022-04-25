@@ -12,31 +12,16 @@
 .Title {
     text-align: center;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 0.5em;
     padding: 0 1rem;
-    /* background: linear-gradient(to right, rgb(122, 250, 164), cyan, yellow);
-    background-clip: text;
-    -webkit-background-clip: text; */
     color: white;
     font-family: 'helvetica', sans-serif;
-    /* font-family: 'Indie Flower', cursive; */
     font-size: 4em;
     cursor: default;
 }
 
 @media (min-width: 500px) {
     .Title {
-        /* text-align: center;
-        width: fit-content; */
         margin: 0 auto 0.5em;
-        /* padding: 0 1rem;
-        background: linear-gradient(to right, rgb(122, 250, 164), cyan, yellow);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-family: 'Festive', cursive; */
-        /* font-family: 'Indie Flower', cursive; */
-        /* font-size: 4em;
-        cursor: default; */
     }
 }

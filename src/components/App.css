@@ -1,15 +1,16 @@
 .App {
   display: flex;
   min-height: 100vh;
+  font-family: 'Helvetica';
 }
 .Landing {
-  border: cyan solid;
+  /* border: cyan solid; */
   width: calc(100vw - 4em);
-  border-width: 0 5px;
+  /* border-width: 0 5px; */
 }
 
 .Title {
-  background: linear-gradient(to bottom, #0bffffd3,rgba(131, 130, 130, 0.897),rgb(0, 0, 0)),
+  background: linear-gradient(to bottom, #fffffffb,rgba(131, 130, 130, 0.897),rgb(0, 0, 0)),
   url('../assets/images/code-background.jpg');
   background-position: bottom right;
   height: 100%;
@@ -29,7 +30,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: 'Cabin Sketch', cursive;
+  font-weight: bolder;
   animation: Title ease-in-out 1s  infinite;
 }
 @keyframes Title {
@@ -41,21 +42,25 @@
 }
 .Name {
   font-size: 4.5em;
+  color: white;
+animation: fade-in 1s forwards;
 }
 .Job {
-  font-family: 'Festive', cursive;
+  color: cyan;
+  animation: fade-in 1s forwards;
 }
 .skills {
   display: flex;
   flex-flow: wrap;
 }
 .skills .tech {
-  color: rgba(255, 255, 255, 0.363);
+  color: rgb(255, 255, 255);
   font-weight: 100;
   font-size: 0.7em;
   line-height: 3em;
   font-family:'Helvetica';
-  margin-right: 1em;
+  margin-right: 1em;  
+animation: fade-in 1s forwards;
 }
 
 .ImageWrapper {
@@ -65,9 +70,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   margin: 0 auto 20px;
+  transform: rotate(180deg);
+  transform-origin: 50% 50% 0;
+  animation: roll-in 1s forwards;
 }
 .ImageWrapper img {
   border-radius: 20%;
@@ -94,7 +102,28 @@
   color: inherit;
   letter-spacing: 3px;
 }
-
+@keyframes fade-in {
+  from {
+      opacity: 0.1;
+      transform: translateY(40%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  
+}
+@keyframes roll-in {
+  0% {
+      opacity: 0.1;
+      transform:  translateX(300%) rotate(260deg);
+  }
+  to {
+      opacity: 1;
+      transform: rotate(0deg) translateX(0);
+  }
+  
+}
 @media (min-width: 600px) {
   .Landing {
     width: 100%;

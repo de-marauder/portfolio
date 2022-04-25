@@ -19,31 +19,98 @@
     margin: 0 auto;
 }
 .contact input, .contact textarea {
-    background-color: rgba(245, 240, 240, 0.459);
+    background-color: inherit;
     border: none;
+    border-bottom: 1px solid cyan;
     padding: 0.5em;
     margin: 0.5em;
     color: #fff;
     font-size: 1.2em;
+    width: 90%
 }
 .contact textarea {
     resize: vertical;
-}
-.contact input:focus, .contact textarea:focus,
-.contact input:hover, .contact textarea:hover {
-    background-color: rgba(0, 255, 255, 0.425);
 }
 .contact input:focus-visible, .contact textarea:focus-visible {
     outline: none;
 }
 .contact input[type="submit"] {
     width: 50%;
-    margin: 1em auto;
+    border: 1px solid cyan
 }
 .contact input[type="submit"]:hover {
-    letter-spacing: 0.5em;
+    background-color: cyan;
+    color: inherit;
+    letter-spacing: 5px;
 }
-
+.contact input[type="submit"]:disabled {
+    background-color: #333;
+    border: none;
+}
+.response {
+    position: relative;
+    max-width: 300px;
+    height: max-content;
+    margin: 0 auto;
+    color: inherit;
+    font-size: 1em;
+    background-color: hsl(152, 81%, 85%);
+    padding: 1.1em 1.3em;
+    border-radius: 0.5em;
+    text-align: center;
+    opacity: 0;
+    display: block;
+    transform: translateX(-50%);
+    animation: fade-in ease-in-out forwards;
+    animation-duration: 1s;
+}
+.error {
+    margin-left: 1em;
+    color:hsl(41, 91%, 64%);
+    animation: fade-in 1s ease-in-out forwards
+}
+.cancel {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    font-size: 0.6em;
+    cursor: default;
+}
+.cancel:hover {
+    font-size: 0.7em;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0.1;
+        transform: translateX(40%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+@keyframes fade-in-out {
+    0% {
+        opacity: 0.1;
+        transform: translateX(40%);
+    }
+    5% {
+        opacity: 1;
+        transform: translateX(0) scale(1)
+    }
+    95% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+        height: max-content;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50%) scale(0);
+        height: 0
+    }
+    
+}
 @media (min-width: 600px) {
     .TitleWrapper .Title {
         font-size: 4em

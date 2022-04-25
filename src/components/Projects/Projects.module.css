@@ -14,11 +14,11 @@
     width: fit-content;
     margin: 0 auto;
     padding: 0 1rem;
-    background: linear-gradient(to right, rgb(122, 250, 164), cyan, yellow);
+    /* background: linear-gradient(to right, rgb(122, 250, 164), cyan, yellow);
     background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-family: 'Festive', cursive;
+    -webkit-background-clip: text; */
+    color: white;
+    font-family: 'helvetica', sans-serif;
     /* font-family: 'Indie Flower', cursive; */
     font-size: 4em;
     cursor: default;

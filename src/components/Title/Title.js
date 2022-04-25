@@ -25,6 +25,7 @@ export default function Title() {
         <div className='skills'>
           <span className='tech'>React</span>
           <span className='tech'>Express</span>
+          <span className='tech'>MongoDB</span>
           <span className='tech'>JavaScript</span>
           <span className='tech'>CSS3</span>
           <span className='tech'>HTML5</span>

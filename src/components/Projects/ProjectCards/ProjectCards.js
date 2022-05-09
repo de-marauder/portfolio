@@ -1,7 +1,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
-import spicy1 from '../../../assets/images/spicy soups 1.png'
+import spicy from '../../../assets/images/spicy soups 1.png'
+import zombrary from '../../../assets/images/zombrary.png'
 import wordle from '../../../assets/images/wordle 1.png'
 import decaden from '../../../assets/images/decaden 1.png'
 import calculator from '../../../assets/images/calculator.png'
@@ -12,10 +13,17 @@ export default function ProjectCards() {
     <div className={classes.ProjectCards}>
       <ProjectCard 
       name="Spicy Foods"
-      img={spicy1} 
+      img={spicy} 
       desc="An Online Restaurant for Ordering Local Cuisine."
       tech={['React', 'Redux', 'Tailwindcss', 'React-router-dom', 'stripe API']}
       links={["https://spicy-soups.vercel.app/", "https://github.com/de-marauder/spicy_soups"]} />
+      
+      <ProjectCard 
+      name="Zombrary"
+      img={zombrary} 
+      desc="Never forget a book again. Add the author and add the book. Find it anytime."
+      tech={['NodeJs', 'ExpressJs', 'EJS', 'CSS3', 'HTML5']}
+      links={["https://zombrary.herokuapp.com/", "https://github.com/de-marauder/zombrary"]} />
       
       <ProjectCard 
       name="Wordle clone"

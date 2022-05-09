@@ -8,11 +8,6 @@
     font-size: 3em
 }
 
-.smilie {
-    right: -1.2em;
-    bottom: 0.5em;
-    font-size: 2.5em;
-}
 .contact {
     display: grid;
     max-width: 500px;

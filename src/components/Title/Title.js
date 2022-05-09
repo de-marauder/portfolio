@@ -3,6 +3,7 @@ import { NavLink as Link } from 'react-router-dom'
 
 import { motion } from 'framer-motion'
 import titleImage from '../../assets/images/coder-icon.webp'
+// import reactIcon from '../../assets/images/react-icon.svg'
 import '../App.css';
 
 
@@ -17,22 +18,25 @@ export default function Title() {
         <div className='ImageWrapper'>
           <img src={titleImage} alt="title" />
         </div>
-        <h1>Hi, I'm</h1>
+        <h1 >Hi, I'm</h1>
         <h1 className="Name">Obiajulu Ezike</h1>
         <h2 className="Job">
           Software Developer<br />
         </h2>
         <div className='skills'>
-          <span className='tech'>React</span>
-          <span className='tech'>Express</span>
-          <span className='tech'>MongoDB</span>
-          <span className='tech'>JavaScript</span>
-          <span className='tech'>CSS3</span>
-          <span className='tech'>HTML5</span>
+          <span className='tech react'>
+            {/* <img src={reactIcon} alt='react icon' /> */}
+            React
+            </span>
+          <span className='tech express'>Express</span>
+          <span className='tech mongodb'>MongoDB</span>
+          <span className='tech js'>JavaScript</span>
+          <span className='tech css'>CSS3</span>
+          <span className='tech html'>HTML5</span>
         </div>
 
       </div>
-      <Link className='flat-btn' to='/contact'>Hire me</Link>
+      <Link className='position flat-btn' to='/contact'>Hire me!</Link>
     </motion.div>
   )
 }

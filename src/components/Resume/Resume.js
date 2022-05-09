@@ -19,13 +19,6 @@ export default function Resume() {
     );
   };
 
-  // const download = async () => {
-  //   console.log("initiating download...")
-  //   // const res = await fetch('../../assets/resume.pdf')
-  //   // const response = await res.json()
-  //   // console.log(response)
-  // }
-
   return (
     <motion.div className={classes.Projects} style={{ minHeight: '100vh' }}
       initial={{ opacity: 0 }}

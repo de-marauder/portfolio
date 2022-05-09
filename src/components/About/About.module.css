@@ -1,41 +1,54 @@
 .P {
-    font-family: 'Helvetica', cursive;
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-    color: hsl(0, 0%, 100%);
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.726);
+  font-family: cursive;
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.726);
+  cursor: default;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.Name {
+  color: var(--text-pri-light);
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
+.skills {
+  color: var(--text-pri-dark);
+  font-weight: bold;
+}
+.skills:hover {
+  color: var(--text-pri-light);
+}
 @keyframes fade-in {
-    from {
-        opacity: 0.1;
-        transform: translateX(40%);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    
+  from {
+    opacity: 0.1;
+    transform: translateX(40%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 @keyframes fade-in-out {
-    0% {
-        opacity: 0.1;
-        transform: translateX(40%);
-    }
-    5% {
-        opacity: 1;
-        transform: translateX(0) scale(1)
-    }
-    95% {
-        opacity: 1;
-        transform: translateX(0) scale(1);
-        height: max-content;
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(50%) scale(0);
-        height: 0
-    }
-    
+  0% {
+    opacity: 0.1;
+    transform: translateX(40%);
+  }
+  5% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    height: max-content;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(50%) scale(0);
+    height: 0;
+  }
 }

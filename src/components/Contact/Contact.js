@@ -15,14 +15,14 @@ export default function Contact() {
   const [submit, handleSubmit] = useForm("xlezogrg");
 
   const contactForm = !submit.succeeded ? (
-    <>
+    <section className={classes1.ContactWrapper}>
       <div className={classes1.TitleWrapper}>
         <h1 className={`${classes.Title} ${classes1.Title}`}>Hit me up! </h1>
       </div>
 
       <div className={classes1.contact}>
         <AnimatePresence>
-          <form
+          <form className={classes1.form}
             onSubmit={(e) => {
               e.preventDefault();
               handleSubmit(e);
@@ -135,7 +135,7 @@ export default function Contact() {
           </form>
         </AnimatePresence>
       </div>
-    </>
+    </section>
   ) : (
     <div className={classes1.response}>
       {/* <Cancel className={classes1.cancel} onClick={()=>setModal(false)} /> */}
@@ -146,12 +146,13 @@ export default function Contact() {
 
   return (
     <motion.div
-      className={classes.Projects}
+      className={`${classes.Projects} ${classes1.ContactPage}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, animation: { delay: 1 } }}
     >
       {contactForm}
+      <div className={`${classes.svgContainer} ${classes1.svg}`}></div>
     </motion.div>
   );
 }

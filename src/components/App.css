@@ -10,8 +10,8 @@
 .Title {
   background: linear-gradient(
       to bottom,
-      var(--background-dark),
-      var(--background-light),
+      var(--background-1-dark),
+      var(--background-1-light),
       rgb(0, 0, 0)
     ),
     url("../assets/images/code-background.jpg");
@@ -158,6 +158,7 @@
   top: 31%;
   right: 25%;
 }
+
 @keyframes fade-in {
   from {
     opacity: 0.1;

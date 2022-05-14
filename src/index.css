@@ -2,7 +2,13 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  transition: ease-in-out 0.3s
+  transition: ease-in-out 0.3s;
+}
+
+@media (prefers-reduced-maotion: redued) {
+  * {
+    transition: none
+  }
 }
 
 :root {

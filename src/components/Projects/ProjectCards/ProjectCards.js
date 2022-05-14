@@ -12,11 +12,11 @@ export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
       <ProjectCard 
-      name="Spicy Foods"
+      name="Spicy soups"
       img={spicy} 
       desc="An Online Restaurant for Ordering Local Cuisine."
       tech={['React', 'Redux', 'Tailwindcss', 'React-router-dom', 'stripe API']}
-      links={["https://spicy-soups.vercel.app/", "https://github.com/de-marauder/spicy_soups"]} />
+      links={["https://spicy-soups.herokuapp.com", "https://github.com/de-marauder/spicy_soups"]} />
       
       <ProjectCard 
       name="Zombrary"

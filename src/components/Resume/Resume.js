@@ -10,9 +10,9 @@ import classes2 from "./Resume.module.css";
 // import resume from "../../assets/resume.pdf";
 
 export default function Resume() {
-  const saveFile = () => {
-    saveAs("https://drive.google.com/file/d/1MN3ozejC3crc7dsCGYEj7iIq8D10y-db/view?usp=sharing", "resume.pdf");
-  };
+  // const saveFile = () => {
+  //   saveAs("https://drive.google.com/file/d/1MN3ozejC3crc7dsCGYEj7iIq8D10y-db/view?usp=sharing", "resume.pdf");
+  // };
 
   return (
     <motion.div
@@ -25,10 +25,10 @@ export default function Resume() {
       <div className={classes2.Resume}>
         <h1 className={classes.Title}>Resume</h1>
         <div className={classes2.ResumeWrapper}>
-          <div onClick={saveFile} className={classes2.Download}>
+          <a href="https://docs.google.com/document/d/1HDpmbY8s7qLaIyYm92ZZ10H8vGfphV391jEx11TtcaA/edit?usp=sharing" target="_blank" className={classes2.Download}>
             <AiOutlineDownload />
             <p className={classes1.P}>Download</p>
-          </div>
+          </a>
           <img className={classes2.ResumeImg} src={ResumeImg} alt="resume" />
         </div>
       </div>

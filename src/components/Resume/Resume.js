@@ -7,11 +7,11 @@ import ResumeImg from "../../assets/images/resume.png";
 import classes from "../Projects/Projects.module.css";
 import classes1 from "../About/About.module.css";
 import classes2 from "./Resume.module.css";
-import resume from "../../assets/resume.pdf";
+// import resume from "../../assets/resume.pdf";
 
 export default function Resume() {
   const saveFile = () => {
-    saveAs(resume, "resume.pdf");
+    saveAs("https://drive.google.com/file/d/1MN3ozejC3crc7dsCGYEj7iIq8D10y-db/view?usp=sharing", "resume.pdf");
   };
 
   return (
@@ -22,7 +22,7 @@ export default function Resume() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, animation: { delay: 1 } }}
     >
-      <div>
+      <div className={classes2.Resume}>
         <h1 className={classes.Title}>Resume</h1>
         <div className={classes2.ResumeWrapper}>
           <div onClick={saveFile} className={classes2.Download}>

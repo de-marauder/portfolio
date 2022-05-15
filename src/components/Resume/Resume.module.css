@@ -36,6 +36,7 @@
  @media (min-width: 500px) {
     .svg {
         background-image: none;
+        z-index: -1;
     }
 }
 

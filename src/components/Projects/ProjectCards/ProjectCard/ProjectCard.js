@@ -16,7 +16,7 @@ export default function ProjectCard(props) {
 
   return (
     <div className={classes.ProjectCard}>
-      <img className={classes.ProjectImg} src={props.img} alt="project" />
+      <img loading="lazy" className={classes.ProjectImg} src={props.img} alt="project" />
       <article className={classes.desc}>
         <div className={classes.Title}>
           <h3>{props.name}</h3>

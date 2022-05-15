@@ -5,9 +5,11 @@
   transition: ease-in-out 0.3s;
 }
 
-@media (prefers-reduced-maotion: redued) {
+@media (prefers-reduced-motion: reduce) {
   * {
-    transition: none
+    transition: none !important;
+    animation-duration: 0.01ms !important;
+    animation-delay: 0.001ms !important;
   }
 }
 

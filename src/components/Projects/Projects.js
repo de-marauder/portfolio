@@ -11,10 +11,8 @@ export default function Projects() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, animation: { delay: 1 } }}
     >
-      {/* <div className={`${classes.svg} ${classes.svgContainer}`}>
-      </div> */}
-        <h1 className={classes.Title}>My Projects</h1>
-        <ProjectCards />
+      <h1 className={classes.Title}>My Projects</h1>
+      <ProjectCards />
     </motion.div>
   );
 }

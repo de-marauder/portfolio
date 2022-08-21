@@ -50,7 +50,7 @@ export default function Navbar(props) {
               href="https://de-marauder.hashnode.dev"
               title='blog'
             >
-              <SiHashnode className={classes.SocialIcons} />
+              <SiHashnode title="blog" className={classes.SocialIcons} />
             </a>
           </div>
         </div>

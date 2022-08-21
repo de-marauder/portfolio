@@ -1,6 +1,6 @@
 import React from "react";
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
-import { SiHomeassistant } from "react-icons/si";
+import { SiHomeassistant, SiHashnode } from "react-icons/si";
 import { NavLink as Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
 
@@ -10,7 +10,7 @@ export default function Navbar(props) {
       style={props.sidebar ? { display: "none" } : null}
       className={classes.Navbar}
     >
-      <Link to="/" className={({ isActive }) =>
+      <Link to="/" title="home" className={({ isActive }) =>
               isActive
                 ? `${classes.HomeIcon} ${classes.active}`
                 : classes.HomeIcon
@@ -24,22 +24,33 @@ export default function Navbar(props) {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/de-marauder"
-            >
+              title='github'
+              >
               <BsGithub className={classes.SocialIcons} />
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/obiajulu-ezike"
-            >
+              title='linkedin'
+              >
               <BsLinkedin className={classes.SocialIcons} />
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://twitter.com/De_marauder"
-            >
+              title='twitter'
+              >
               <BsTwitter className={classes.SocialIcons} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://de-marauder.hashnode.dev"
+              title='blog'
+            >
+              <SiHashnode className={classes.SocialIcons} />
             </a>
           </div>
         </div>

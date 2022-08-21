@@ -19,7 +19,7 @@ export default function Resume() {
       <div className={classes2.Resume}>
         <h1 className={classes.Title}>Resume</h1>
         <div className={classes2.ResumeWrapper}>
-          <a href="https://docs.google.com/document/d/1yFxmVr6XppoKM4wqdAeuKpTXhrKfZ7LzMCMZMb-pxw8/edit?usp=sharing" download target="_blank" rel="noreferrer" className={classes2.Download}>
+          <a href="https://drive.google.com/file/d/1Ub4Er5bTubYPJn6rwTKa0biHBrzjbw8w/view?usp=sharing" download target="_blank" rel="noreferrer" className={classes2.Download}>
             <AiOutlineDownload />
             <p className={classes1.P}>Download</p>
           </a>

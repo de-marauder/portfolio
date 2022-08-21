@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
+import quickterms from '../../../assets/images/quickterms.png'
 import spicy from '../../../assets/images/spicy soups 1.png'
 import zombrary from '../../../assets/images/zombrary.png'
 import wordle from '../../../assets/images/wordle 1.png'
@@ -11,6 +12,13 @@ import classes from "./ProjectCards.module.css"
 export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
+      <ProjectCard 
+      name="QuickTerms"
+      img={quickterms} 
+      desc="A Terms & Conditions and Privacy Policy Generator."
+      tech={['Django', 'Javascript', 'Bootstrap5']}
+      links={["https://quickterms.herokuapp.com", "https://github.com/zuri-training/Proj-T_C_Gen-Team-74"]} />
+      
       <ProjectCard 
       name="Spicy soups"
       img={spicy} 

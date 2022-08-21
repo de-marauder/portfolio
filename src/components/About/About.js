@@ -36,7 +36,6 @@ export default function About() {
             <span className={classes2.skills}>python</span>&nbsp; and a specific
             interest in web development.
           </motion.p>
-          <br />
           <motion.p
             className={classes2.P}
             initial={{ opacity: 0, transform: "translate(-75%)" }}
@@ -47,7 +46,6 @@ export default function About() {
             responsiveness and optimization of websites is something I take
             pride in. I constantly strive to improve my skills.
           </motion.p>
-          <br />
           <motion.p
             className={classes2.P}
             initial={{ opacity: 0, transform: "translate(-100%)" }}

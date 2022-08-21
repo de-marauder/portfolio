@@ -85,12 +85,12 @@
 @media (min-width: 600px) {
   .about {
     width: 80vw;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     backdrop-filter: blur(2px);
-    background: hsl(0, 0%, 100%, 50%);
+    background: hsl(0, 0%, 100%, 20%);
   }
   .AboutPage {
     display: block

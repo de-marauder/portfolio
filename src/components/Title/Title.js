@@ -2,7 +2,8 @@ import React from 'react'
 import { NavLink as Link } from 'react-router-dom'
 
 import { motion } from 'framer-motion'
-import titleImage from '../../assets/images/coder-icon.webp'
+// import titleImage from '../../assets/images/coder-icon.webp'
+import titleImage from '../../assets/images/obi-39-no-bg.png'
 // import reactIcon from '../../assets/images/react-icon.svg'
 import '../App.css';
 
@@ -21,7 +22,7 @@ export default function Title() {
         <h1 >Hi, I'm</h1>
         <h1 className="Name">Obiajulu Ezike</h1>
         <h2 className="Job">
-          Software Developer<br />
+          Software & DevOps Engineer<br />
         </h2>
         <div className='skills'>
           <span className='tech react'>
@@ -30,9 +31,10 @@ export default function Title() {
             </span>
           <span className='tech express'>Express</span>
           <span className='tech mongodb'>MongoDB</span>
-          <span className='tech js'>JavaScript</span>
-          <span className='tech css'>CSS3</span>
-          <span className='tech html'>HTML5</span>
+          <span className='tech js'>TypeScript</span>
+          <span className='tech css'>AWS</span>
+          <span className='tech html'>Docker</span>
+          <span className='tech html'>Kubernetes</span>
         </div>
 
       </div>

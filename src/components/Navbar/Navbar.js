@@ -3,6 +3,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { SiHomeassistant, SiHashnode } from "react-icons/si";
 import { NavLink as Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
+// import classes2 from "../Resume/Resume.module.css";
 
 export default function Navbar(props) {
   return (
@@ -11,11 +12,11 @@ export default function Navbar(props) {
       className={classes.Navbar}
     >
       <Link to="/" title="home" className={({ isActive }) =>
-              isActive
-                ? `${classes.HomeIcon} ${classes.active}`
-                : classes.HomeIcon
-            }>
-          <SiHomeassistant />
+        isActive
+          ? `${classes.HomeIcon} ${classes.active}`
+          : classes.HomeIcon
+      }>
+        <SiHomeassistant />
       </Link>
       <div className={classes.Links}>
         <div className={classes.Socials}>
@@ -25,7 +26,7 @@ export default function Navbar(props) {
               rel="noreferrer"
               href="https://github.com/de-marauder"
               title='github'
-              >
+            >
               <BsGithub className={classes.SocialIcons} />
             </a>
             <a
@@ -33,7 +34,7 @@ export default function Navbar(props) {
               rel="noreferrer"
               href="https://www.linkedin.com/in/obiajulu-ezike"
               title='linkedin'
-              >
+            >
               <BsLinkedin className={classes.SocialIcons} />
             </a>
             <a
@@ -41,7 +42,7 @@ export default function Navbar(props) {
               rel="noreferrer"
               href="https://twitter.com/De_marauder"
               title='twitter'
-              >
+            >
               <BsTwitter className={classes.SocialIcons} />
             </a>
             <a
@@ -75,16 +76,13 @@ export default function Navbar(props) {
           >
             About
           </Link>
-          <Link
-            to="/resume"
-            className={({ isActive }) =>
-              isActive
-                ? `${classes.NavItem} ${classes.active}`
-                : classes.NavItem
-            }
+          <a
+            href="https://drive.google.com/file/d/1QzN3df3SukF_b1rQSlcY9WjJVH8Y6bgaOzBREJYgCno/view?usp=sharing"
+            className={classes.NavItem}
+            download target="_blank" rel="noreferrer"
           >
             Resume
-          </Link>
+          </a>
           <Link
             to="/contact"
             className={({ isActive }) =>

@@ -19,11 +19,13 @@ export default function Resume() {
       <div className={classes2.Resume}>
         <h1 className={classes.Title}>Resume</h1>
         <div className={classes2.ResumeWrapper}>
-          <a href="https://drive.google.com/file/d/1Ub4Er5bTubYPJn6rwTKa0biHBrzjbw8w/view?usp=sharing" download target="_blank" rel="noreferrer" className={classes2.Download}>
+          {/* <a href="https://drive.google.com/file/d/1Ub4Er5bTubYPJn6rwTKa0biHBrzjbw8w/view?usp=sharing" download target="_blank" rel="noreferrer" className={classes2.Download}> */}
+          <a href="https://drive.google.com/file/d/1QzN3df3SukF_b1rQSlcY9WjJVH8Y6bgaOzBREJYgCno/view?usp=sharing" download target="_blank" rel="noreferrer" className={classes2.Download}>
             <AiOutlineDownload />
             <p className={classes1.P}>Download</p>
           </a>
-          <img className={classes2.ResumeImg} src="https://drive.google.com/uc?export=view&id=1Ej7dIncDrLgEQJEL-y42rGq8M4ZpbHST" alt="resume" />
+          {/* <img className={classes2.ResumeImg} src="https://drive.google.com/uc?export=view&id=1Ej7dIncDrLgEQJEL-y42rGq8M4ZpbHST" alt="resume" /> */}
+          <img className={classes2.ResumeImg} src="https://drive.google.com/uc?export=view&id=1QzN3df3SukF_b1rQSlcY9WjJVH8Y6bgaOzBREJYgCno" alt="resume" />
         </div>
       </div>
       <div className={`${classes.svgContainer} ${classes2.svg}`}></div>

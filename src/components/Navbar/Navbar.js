@@ -77,7 +77,7 @@ export default function Navbar(props) {
             About
           </Link>
           <a
-            href="https://drive.google.com/file/d/1QzN3df3SukF_b1rQSlcY9WjJVH8Y6bgaOzBREJYgCno/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uzrQrO7XncZN7ZuFiwUOTlbPq7WD8jQLyzv-s-CXNgQ/view?usp=sharing"
             className={classes.NavItem}
             download target="_blank" rel="noreferrer"
           >

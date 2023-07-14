@@ -1,6 +1,9 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
+import watch_tower from '../../../assets/images/watch-tower.webp'
+import kube_ci from '../../../assets/images/Kubernetes-CICD.png'
+import kube_tf from '../../../assets/images/kubernetes-terraform.jpg'
 import altschool from '../../../assets/images/altschool-cloud-projects.jpg'
 import quickterms from '../../../assets/images/quickterms.png'
 import spicy from '../../../assets/images/spicy soups 1.png'
@@ -14,11 +17,32 @@ export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
       <ProjectCard 
+      name="Watch-tower"
+        img={watch_tower} 
+      desc="A complete application deployment using terraform with prometheus monitoring stack"
+      tech={['AWS', 'Route53', 'Terraform', 'Ansible', 'linux', 'Prometheus', 'Grafana', 'Loki']}
+        links={["https://github.com/de-marauder/Altschool-Capstone-Project", "https://github.com/de-marauder/Altschool-Capstone-Project"]} />
+
+      <ProjectCard 
+      name="Kubernetes CI-CD"
+        img={kube_ci} 
+      desc="CI-CD with Kubernetes from scratch on terraform"
+      tech={['Kubernetes', 'Helm', 'Terraform', 'bash', 'linux', 'k8s']}
+        links={["https://github.com/de-marauder/kubernetes-terraform-CI-CD", "https://github.com/de-marauder/kubernetes-terraform-CI-CD"]} />
+
+      <ProjectCard 
+      name="Kubernetes + terraform"
+        img={kube_tf} 
+      desc="Kubernetes Cluster from scratch on terraform"
+      tech={['Kubernetes', 'Helm', 'Terraform', 'bash', 'linux']}
+        links={["https://github.com/de-marauder/kubernetes-tf-aws", "https://github.com/de-marauder/kubernetes-tf-aws"]} />
+
+      <ProjectCard 
       name="AltSchool"
       img={altschool} 
       desc="A repo of my cloud projects while in AltSchool"
       tech={['AWS', 'GCP', 'CI/CD', 'Docker', 'Kubernetes', 'Helm', 'Terraform', 'Ansible', 'bash', 'linux']}
-      links={["https://quickterms.onrender.com", "https://github.com/de-marauder/altschool-cloud-exercises"]} />
+        links={["https://github.com/de-marauder/altschool-cloud-exercises", "https://github.com/de-marauder/altschool-cloud-exercises"]} />
 
       <ProjectCard 
       name="QuickTerms"

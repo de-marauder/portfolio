@@ -8,3 +8,12 @@
   justify-content: center;
 }
 
+@media (min-width: 1200px) {
+
+  .ProjectCards {
+    max-width: 1300px;
+    min-width: unset;
+    gap: 1rem;
+    /* width: 1000px; */
+  }
+}

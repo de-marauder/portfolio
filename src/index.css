@@ -14,8 +14,8 @@
 }
 
 :root {
-  --background-hue: 300;
-  --background-hue-1: 245;
+  --background-hue: 222;
+  --background-hue-1: 222;
   --background-dark: hsl(var(--background-hue), 100%, 8%, 90%);
   --background-light: hsl(var(--background-hue), 100%, 15%, 90%);
   --background-1-dark: hsl(var(--background-hue-1), 0%, 0%, 90%);

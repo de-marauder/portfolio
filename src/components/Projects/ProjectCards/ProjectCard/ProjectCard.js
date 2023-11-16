@@ -9,9 +9,9 @@ export default function ProjectCard(props) {
     </li>
   ));
   const links = props.links.map((el, id) => (
-    <a key={id} target="_blank" rel="noreferrer" href={el}>
+    el ? <a key={id} target="_blank" rel="noreferrer" href={el}>
       {id === 0 ? "Open Site" : "View Code"}
-    </a>
+    </a> : null
   ));
 
   return (

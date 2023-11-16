@@ -68,21 +68,12 @@ export default function About() {
                 animate={{ opacity: 1, transform: "translate(0%)" }}
                 exit={{ opacity: 0 }}
               >
-                I am excited to embark on new challenges and contribute my expertise to cutting-edge projects. If you're looking for a passionate and results-oriented software and cloud engineer, I'd love to connect and discuss how we can collaborate to drive innovation and success. Get in touch, and let's create something amazing together!"
-              </motion.p>
-              <motion.p
-                className={classes2.P}
-                initial={{ opacity: 0, transform: "translate(-100%)" }}
-                animate={{ opacity: 1, transform: "translate(0%)" }}
-                exit={{ opacity: 0 }}
-              >
-                Feel free to personalize this description by adding your own specific experiences, achievements, and technologies you specialize in.
+                I am excited to embark on new challenges and contribute my expertise to cutting-edge projects. If you're looking for a passionate and results-oriented software and cloud engineer, I'd love to connect and discuss how we can collaborate to drive innovation and success. Get in touch, and let's create something amazing together!
               </motion.p>
             </div>
-
           </section>
         </section>
-      </div>
-    </motion.div>
+      </div >
+    </motion.div >
   );
 }

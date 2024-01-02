@@ -22,21 +22,21 @@ export default function ProjectCards() {
         name="Gen-Algo Webui"
         img={gen_algo}
         desc="A simple webui for interacting with a genetic algorithm to optimize hydrogen production from flare gas."
-        tech={['NextJs', 'tailwind']}
+        tech={['TypeScript', 'NextJs', 'tailwind']}
         links={["https://gen-algo-webui.vercel.app", "https://github.com/de-marauder/gen-algo-webui"]} />
 
       <ProjectCard
         name="Gen-Algo API"
         img={gen_algo}
         desc="A REST API for interacting with a genetic algorithm to optimize hydrogen production from flare gas."
-        tech={['NodeJs', 'ExpressJs']}
+        tech={['TypeScript', 'NodeJs', 'ExpressJs']}
         links={[null, "https://github.com/de-marauder/gen-algo-api"]} />
       
       <ProjectCard
         name="Gen-Algo CLI"
         img={gen_algo_cli}
         desc="An NPM CLI for interacting with a genetic algorithm to optimize hydrogen production from flare gas."
-        tech={['NodeJs', 'ExpressJs']}
+        tech={['TypeScript', 'NodeJs', 'ExpressJs']}
         links={["https://www.npmjs.com/package/@de-marauder/gen-algo", "https://github.com/de-marauder/genetics_algorithm"]} />
 
       <ProjectCard

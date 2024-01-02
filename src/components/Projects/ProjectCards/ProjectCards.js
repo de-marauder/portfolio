@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
+import gen_algo_cli from '../../../assets/images/gen-algo-cli.png'
 import gen_algo from '../../../assets/images/gen_algo.png'
 import watch_tower from '../../../assets/images/watch-tower.webp'
 import kube_ci from '../../../assets/images/Kubernetes-CICD.png'
@@ -30,6 +31,13 @@ export default function ProjectCards() {
         desc="A REST API for interacting with a genetic algorithm to optimize hydrogen production from flare gas."
         tech={['NodeJs', 'ExpressJs']}
         links={[null, "https://github.com/de-marauder/gen-algo-api"]} />
+      
+      <ProjectCard
+        name="Gen-Algo CLI"
+        img={gen_algo_cli}
+        desc="An NPM CLI for interacting with a genetic algorithm to optimize hydrogen production from flare gas."
+        tech={['NodeJs', 'ExpressJs']}
+        links={["https://www.npmjs.com/package/@de-marauder/gen-algo", "https://github.com/de-marauder/genetics_algorithm"]} />
 
       <ProjectCard
         name="Watch-tower"

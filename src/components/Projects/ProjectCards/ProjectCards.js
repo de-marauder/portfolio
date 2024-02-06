@@ -3,6 +3,7 @@ import ProjectCard from './ProjectCard/ProjectCard'
 
 import gen_algo_cli from '../../../assets/images/gen-algo-cli.png'
 import gen_algo from '../../../assets/images/gen_algo.png'
+import go_express from '../../../assets/images/go_express.png'
 import watch_tower from '../../../assets/images/watch-tower.webp'
 import kube_ci from '../../../assets/images/Kubernetes-CICD.png'
 import kube_tf from '../../../assets/images/kubernetes-terraform.jpg'
@@ -18,6 +19,13 @@ import classes from "./ProjectCards.module.css"
 export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
+      <ProjectCard
+        name="Go-Express"
+        img={go_express}
+        desc="An HTTP socket server written from scratch on TCP in the expressJs style."
+        tech={['golang']}
+        links={[null, "https://github.com/de-marauder/go-express"]} />
+
       <ProjectCard
         name="Gen-Algo Webui"
         img={gen_algo}

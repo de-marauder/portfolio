@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
+import multi_region_eks from '../../../assets/images/multi-region-eks.png'
 import gen_algo_cli from '../../../assets/images/gen-algo-cli.png'
 import gen_algo from '../../../assets/images/gen_algo.png'
 import go_express from '../../../assets/images/go_express.png'
@@ -19,6 +20,13 @@ import classes from "./ProjectCards.module.css"
 export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
+      <ProjectCard
+        name="Multi-Region-EKS"
+        img={multi_region_eks}
+        desc="A project demonstrating how to create a multi-region kubernetes cluster deployment."
+        tech={['Terragrunt', 'ArgoCD', 'Helm', 'AWS', 'EKS']}
+        links={[null, "https://github.com/de-marauder/multi-region-eks"]} />
+
       <ProjectCard
         name="Go-Express"
         img={go_express}

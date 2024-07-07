@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
 import multi_region_eks from '../../../assets/images/multi-region-eks.png'
+import web3_auction_api from '../../../assets/images/web3-auction-api.png'
 import gen_algo_cli from '../../../assets/images/gen-algo-cli.png'
 import gen_algo from '../../../assets/images/gen_algo.png'
 import go_express from '../../../assets/images/go_express.png'
@@ -26,6 +27,13 @@ export default function ProjectCards() {
         desc="A project demonstrating how to create a multi-region kubernetes cluster deployment."
         tech={['Terragrunt', 'ArgoCD', 'Helm', 'AWS', 'EKS']}
         links={[null, "https://github.com/de-marauder/multi-region-eks"]} />
+      
+      <ProjectCard
+        name="Web3 Auction API"
+        img={web3_auction_api}
+        desc="A simple API for auctions on the ethereum blockchain."
+        tech={['nestJs', 'web3Js', 'mongodb', 'jest', 'super-test']}
+        links={[null, "https://github.com/de-marauder/web3-auction-api"]} />
 
       <ProjectCard
         name="Go-Express"

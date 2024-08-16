@@ -35,7 +35,8 @@ export default function About() {
                 animate={{ opacity: 1, transform: "translate(0%)" }}
                 exit={{ opacity: 0 }}
               >
-                My expertise lies in crafting robust architectures, building scalable microservices, and optimizing performance across the entire software development lifecycle. I thrive on solving complex problems, leveraging a wide range of technologies such as <span className={classes2.Name}>TypeScript, Python, Bash, NodeJs, React, Terraform, Ansible, Docker, Kubernetes</span>.
+                My expertise lies in crafting robust architectures, building scalable microservices, and optimizing performance across the entire software development lifecycle. I thrive on solving complex problems, leveraging a wide range of technologies such as <span className={classes2.Name}>TypeScript, Python, Bash, NodeJs, React, Terraform, Ansible, Docker, Kubernetes</span>. 
+                I am currently interested in networking and distributed systems and their areas of application. 
               </motion.p>
               <motion.p
                 className={classes2.P}

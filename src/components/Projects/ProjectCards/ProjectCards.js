@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard/ProjectCard'
 
+import kube_scratch from '../../../assets/images/kube-scratch.png'
 import multi_region_eks from '../../../assets/images/multi-region-eks.png'
 import web3_auction_api from '../../../assets/images/web3-auction-api.png'
 import gen_algo_cli from '../../../assets/images/gen-algo-cli.png'
@@ -21,6 +22,13 @@ import classes from "./ProjectCards.module.css"
 export default function ProjectCards() {
   return (
     <div className={classes.ProjectCards}>
+      <ProjectCard
+        name="Kube-Scratch"
+        img={kube_scratch}
+        desc="A lean IaC approach to deploying a k3s kubernetes cluster on AWS"
+        tech={['Terraform', 'Github Actions', 'Helm', 'AWS', 'k3s', 'Golang']}
+        links={[null, "https://github.com/de-marauder/kube-scratch"]} />
+
       <ProjectCard
         name="Multi-Region-EKS"
         img={multi_region_eks}

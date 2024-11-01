@@ -45,14 +45,6 @@ export default function Navbar(props) {
             >
               <BsTwitter className={classes.SocialIcons} />
             </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://de-marauder.hashnode.dev"
-              title='blog'
-            >
-              <SiHashnode title="blog" className={classes.SocialIcons} />
-            </a>
           </div>
         </div>
         <div className={classes.Routes}>
@@ -66,6 +58,14 @@ export default function Navbar(props) {
           >
             Projects
           </Link>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://de-marauder.hashnode.dev"
+            title='blog'
+          >
+            blog
+          </a>
           <Link
             to="/about"
             className={({ isActive }) =>

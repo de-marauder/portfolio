@@ -59,12 +59,12 @@ export default function Navbar(props) {
             Projects
           </Link>
           <a
+            className={classes.NavItem}
             target="_blank"
             rel="noreferrer"
             href="https://de-marauder.hashnode.dev"
-            title='blog'
           >
-            blog
+            Blog
           </a>
           <Link
             to="/about"
